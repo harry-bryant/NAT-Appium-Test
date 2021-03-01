@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hello.HelloWorldTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-02-08T15:51:20" hostname="mcr-al35865.at.autotrader.co.uk" time="14.09">
-  <properties/>
-  <testcase name="Hello world()" classname="hello.HelloWorldTest" time="14.09"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[Feb 08, 2021 3:51:32 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
-INFO: Detected dialect: W3C
-]]></system-err>
-</testsuite>

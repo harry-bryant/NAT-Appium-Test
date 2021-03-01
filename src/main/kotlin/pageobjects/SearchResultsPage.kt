@@ -12,10 +12,21 @@ class SearchResultsPage(driver: AppiumDriver<MobileElement>) {
     }
 
     //*[starts-with(@id, 'sometext') and ends-with(@id, '_text')]
-    @iOSXCUITFindBy(xpath = "//XCUIElementTypeButton[starts-with(@name, \"Search \")]")
-    private var searchButton: MobileElement? = null
+    @iOSXCUITFindBy(accessibility = "SearchResultsView")
+    private var searchResultsView: MobileElement? = null
 
-    fun findThing() {
+    @iOSXCUITFindBy(xpath = "//XCUIElementTypeStaticText[@name=\"Filters\"]")
+    private var filtersButton: MobileElement? = null
 
+    fun clickFiltersButton() {
+        filtersButton?.click()
+    }
+
+    fun searchResultsViewIsVisible(): Boolean {
+        return searchResultsView?.isDisplayed ?: false
+    }
+
+    fun getSearchResultsViewTitle(): String {
+        return searchResultsView?.text ?: ""
     }
 }

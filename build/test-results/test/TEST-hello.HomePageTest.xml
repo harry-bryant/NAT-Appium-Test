@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="hello.HomePageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-04-19T15:06:45" hostname="mcr-al35865.at.autotrader.co.uk" time="34.208">
+  <properties/>
+  <testcase name="select make, model and run search()" classname="hello.HomePageTest" time="34.208"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Apr 19, 2021 4:06:49 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>
